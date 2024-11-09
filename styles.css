@@ -1,0 +1,139 @@
+/* General Style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #add8e6; /* Light blue background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Skip to Content Link */
+.skip-to-content {
+    position: absolute;
+    left: -999px;
+    top: -999px;
+}
+.skip-to-content:focus {
+    left: 10px;
+    top: 10px;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+/* High Contrast Toggle Button */
+.high-contrast-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.high-contrast-btn:hover {
+    background-color: #555;
+}
+
+/* High Contrast Mode */
+body.high-contrast {
+    background-color: #000;
+    color: #fff;
+}
+body.high-contrast nav ul {
+    background-color: #000;
+}
+body.high-contrast nav ul li a {
+    color: #00f; /* Blue links in high contrast */
+}
+body.high-contrast .btn {
+    background-color: #00f;
+}
+body.high-contrast footer {
+    background-color: #000;
+}
+
+/* Logo */
+.logo {
+    display: block;
+    margin: 20px auto;
+    max-width: 150px;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 20px;
+    display: inline-block;
+}
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Paragraphs */
+p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* YouTube Button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+.btn:hover {
+    background-color: #cc0000;
+}
+
+/* Donate Section */
+.donate-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.donate-image {
+    max-width: 250px;
+    margin-right: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
